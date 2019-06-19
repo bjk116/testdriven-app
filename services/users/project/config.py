@@ -1,15 +1,21 @@
+# services/users/project/config.py
+
+
 class BaseConfig:
-	"""Base configuration"""
-	TESTING = False
+    """Base configuration"""
+    TESTING = False
+
 
 class DevelopmentConfig(BaseConfig):
-	"""Development configuration"""
-	pass
+    """Development configuration"""
+    pass
+
 
 class TestingConfig(BaseConfig):
-	"""Testing configuration"""
-	TESTING  = True
+    """Testing configuration"""
+    TESTING = True
+
 
 class ProductionConfig(BaseConfig):
-	"""Production configuration"""
-	pass
+    """Production configuration"""
+    pass
